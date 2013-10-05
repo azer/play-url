@@ -1,6 +1,6 @@
 ## play-url
 
-Unified API for Youtube, SoundCloud and Rdio.
+Unified API for playing Youtube, Rdio, SoundCloud and Mp3 URLs.
 
 ```js
 player = require('play-url')(/* options */)
