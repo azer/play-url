@@ -29,7 +29,39 @@ Pass SoundCloud and Rdio API keys:
 player = require('play-url')({ soundcloud: 'api-key', rdio: { key: 'api-key', auth: 'auth.html' })
 ```
 
-### play(`url`)
-### pause()
-### onPlay(`callback`)
-### onEnd(`callback`)
+#### .play(`url`)
+
+```js
+player.play('http://www.rdio.com/artist/The_Chemical_Brothers/album/Push_The_Button/track/Galvanize/')
+```
+
+#### .pause()
+
+```js
+player.pause()
+```
+
+#### .onPlay(`callback`)
+
+```js
+player.onPlay(function (playback) {
+  playback.url
+  // => http://www.youtube.com/watch?v=fPjW1nwIdsY
+})
+```
+
+For once:
+
+```js
+player.onPlay.subscribe.once(function (playback) {
+
+})
+```
+
+To unsubscribe:
+
+```js
+player.onPlay.unsubscribe(`callback`)
+```
+
+#### .onEnd(`callback`)
