@@ -41,11 +41,28 @@ player.play('http://www.rdio.com/artist/The_Chemical_Brothers/album/Push_The_But
 player.pause()
 ```
 
+#### .playback()
+
+Returns the active playback object.
+
+```js
+player.playback.url
+// => http://www.youtube.com/watch?v=fPjW1nwIdsY
+```
+
+You can subscribe to the changes on it:
+
+```js
+player.playback.subscribe(function (newPlayback, oldPlayback) {
+  console.log('Started playing %s', newPlayback.url)
+})
+```
+
 #### .onPlay(`callback`)
 
 ```js
-player.onPlay(function (playback) {
-  playback.url
+player.onPlay(function () {
+  player.playback().url
   // => http://www.youtube.com/watch?v=fPjW1nwIdsY
 })
 ```
@@ -53,7 +70,7 @@ player.onPlay(function (playback) {
 For once:
 
 ```js
-player.onPlay.subscribe.once(function (playback) {
+player.onPlay.subscribe.once(function () {
 
 })
 ```
