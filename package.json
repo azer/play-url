@@ -1,0 +1,36 @@
+{
+  "name": "play-url",
+  "version": "0.0.0",
+  "description": "Play the song at given URL. Supports Soundcloud, Youtube and Rdio URLs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "fox"
+  },
+  "dependencies": {
+    "youtube-video": "*",
+    "rdio-js-api": "*",
+    "soundcloud-stream": "*",
+    "property": "0.0.x",
+    "new-struct": "0.0.x",
+    "pubsub": "0.0.x",
+    "attr": "0.0.x",
+    "play-audio": "0.1.x",
+    "hide": "0.0.x"
+  },
+  "devDependencies": {
+    "fox": "*"
+  },
+  "keywords": [
+    "music",
+    "song",
+    "youtube",
+    "soundcloud",
+    "rdio"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/play-url.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD"
+}
