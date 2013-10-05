@@ -1,6 +1,6 @@
 {
   "name": "play-url",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Play the song at given URL. Supports Soundcloud, Youtube and Rdio URLs.",
   "main": "index.js",
   "scripts": {
