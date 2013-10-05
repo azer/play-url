@@ -7,9 +7,11 @@ var player = require("../")({
 });
 
 it('plays a youtube video', function(done){
-  player.play('http://www.youtube.com/watch?v=pmaXHWPIovE&list=RD03J23BBMHcOJQ');
+  var url = 'http://www.youtube.com/watch?v=pmaXHWPIovE&list=RD03J23BBMHcOJQ';
+  player.play(url);
 
   player.onPlay.subscribe.once(function () {
+    expect(player.playback().url).to.equal(url);
     done();
   });
 
