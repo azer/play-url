@@ -7,9 +7,9 @@
     "test": "fox"
   },
   "dependencies": {
-    "youtube-video": "*",
-    "rdio-js-api": "*",
-    "soundcloud-stream": "*",
+    "youtube-video": "0.0.*",
+    "rdio-js-api": "0.0.*",
+    "soundcloud-stream": "0.0.*",
     "property": "0.0.x",
     "new-struct": "0.0.x",
     "pubsub": "0.0.x",
