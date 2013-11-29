@@ -19,6 +19,9 @@ See `test/index.js` for more info.
 $ npm install play-url
 ```
 
+Note: Despite this module using NPM, it is only for web-browsers, not for node.js. [Learn more.](https://github.com/azer/play-url/issues/1)
+
+
 ## API
 
 ### require('play-url')(`options`)
