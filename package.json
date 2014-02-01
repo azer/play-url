@@ -11,7 +11,7 @@
     "rdio-js-api": "0.0.*",
     "soundcloud-stream": "0.0.*",
     "property": "0.0.x",
-    "new-struct": "0.0.x",
+    "new-struct": "0.0.4",
     "pubsub": "0.0.x",
     "attr": "0.0.x",
     "play-audio": "0.1.x",
