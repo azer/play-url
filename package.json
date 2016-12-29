@@ -7,14 +7,14 @@
     "test": "fox"
   },
   "dependencies": {
-    "youtube-video": "0.0.*",
-    "rdio-js-api": "0.0.*",
-    "soundcloud-stream": "0.0.*",
-    "property": "0.0.x",
-    "new-struct": "0.0.4",
-    "pubsub": "0.0.x",
-    "attr": "0.0.x",
-    "play-audio": "0.1.x",
+    "youtube-video": "azer/youtube-video",
+    "rdio-js-api": "azer/rdio-js-api",
+    "soundcloud-stream": "azer/soundcloud-stream",
+    "property": "azer/property",
+    "new-struct": "azer/new-struct",
+    "pubsub": "azer/pubsub",
+    "attr": "azer/attr",
+    "play-audio": "azer/play-audio",
     "hide": "0.0.x"
   },
   "devDependencies": {
